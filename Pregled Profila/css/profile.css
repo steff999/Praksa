@@ -1,0 +1,122 @@
+.about {
+  height: 170px;
+  margin-bottom: 30px;
+  margin-top: 90px;
+  text-align: center;
+  background-color: #ff8888;
+}
+
+.para {
+  padding-top: 70px;
+}
+
+.bart {
+  width: 100px;
+  position: relative;
+  right: 190px;
+}
+
+.name {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.list-group-item {
+  border: none;
+}
+
+.card-body {
+  border: 1px solid gray;
+
+  color: black;
+
+}
+
+.background{
+
+	background-color: #6f42c1;
+
+}
+
+.radius {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.radius1{
+
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+
+}
+
+span{
+
+background-color: #ff8888;
+border-radius: 30px;
+padding: 3px;
+padding-right: 10px;
+padding-left: 10px;
+
+
+}
+
+h5{
+
+padding-left: 18px;
+
+}
+
+h6{
+
+position: relative;
+bottom: 25px;
+left: 40px;
+
+}
+
+@media (min-width: 576px) {
+
+	.col-md-3{
+
+
+		margin-left: 90px;
+	}
+
+  
+	.slike{
+  
+	  width: 250px;
+	}
+  }
+
+
+@media (min-width: 768px) {
+
+	.col-md-3{
+
+		margin-left: 0px;
+	}
+  
+  .slike{
+
+	width: 100px;
+  }
+}
+
+@media (min-width: 992px) {
+  
+  .slike{
+
+	width: 150px;
+  }
+}
+ 
+@media (min-width: 1200px) {
+  
+	.slike{
+  
+	  width: 180px;
+	}
+  }
+ 
