@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/jelena.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/find.css">
+</head>
+
+<body>
+    <header class="header-top">
+        <nav class="navbar navbar-expand-lg container">
+            <a class="navbar-brand" href="index.html">
+                <img src="./materijali/itpolovi_logo.png" alt="Logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <i class="fa fa-navicon icon"></i>
+                </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto nav-main">
+                    <li class="nav-item">
+                        <a class="nav-link" href="find-consultant.html">Nadji konsultanta
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="find-jobs.html">Nadji posao</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="find-project.html">Nadji projekat</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Kako radi
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="consultant.html">Consultant</a>
+                            <a class="dropdown-item" href="client.html">Vendor/client</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">Pitanja</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Jezik
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                            <a class="dropdown-item" href="#">
+                                <img src="img/en.png" alt="English" />
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="img/sr.png" alt="Serbian" />
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item log-nav">
+                        <a class="nav-link" href="login.html" data-toggle="modal" data-target="#myModal">Prijava</a>
+                    </li>
+                    <li class="nav-item log-nav" id="registration2">
+                        <a class="nav-link" href="sign-up.html" data-toggle="modal"
+                            data-target="#myModal">Registracija</a>
+                    </li>
+                    <li>
+                        <a href="#" class="importCv">Ubaci svoj CV</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="container">
+
+            <div class="row form-row">  
+
+                <form class="form col-md-9">
+
+                        <h1>Pronadji konsultanta</h1>
+                    
+                    <div class="form-row">
+                        <div class="form-group col-md-12 forma">
+                            <i class="fa fa-search icon"></i>
+                            <button class="button cancel-button" type="reset" value="Reset"><i
+                                    class="fa fa-remove icon"></i></button>
+                                   
+                            <div class="col-md-12 pl-0 input1-div">
+                                <input class="col-12 search" type="text" placeholder="Unesi Kljucne reci">
+                            </div>
+                            <div>
+                                <label class="col-md-4 control-label" for="submit"></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container main">
+                        <div class="form-group list-div">
+                            <ul class="pl-0 row">
+
+                                <li class="m-2 first col-md-2">
+                                    <div>Web Developer</div>
+                                </li>
+                                <li class="m-2 first col-md-2"><span>JavaScript</span></li>
+                                <li class="m-2 first col-md-2"><span>React.js</span></li>
+                                
+                                <li class="m-2 first col-md-2 best"><span>Projekat</span><i class="fa fa-remove icon-remove"></i></li>
+
+                            </ul>
+                            <hr>
+
+                        </div>
+                        <div class="form-group pt-3 mt-2 input-div">
+                            <label>
+                                <p class="text-primary para3">Tip Placanja:</p>
+                            </label>
+                            <div class="form-check form-check-inline">
+
+                                <label class="form-check-label text-primary" for="inlineRadio3">Sva</label>
+                                <input class="form-check-input mt-2 ml-2 checked" type="radio" checked="checked"
+                                    name="inlineRadioOptions1" id="inlineRadio1" value="option1">
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <label class="form-check-label text-primary" for="inlineRadio2">Po satu</label>
+                                <input class="form-check-input mt-2 ml-2" type="radio" checked="checked" name="inlineRadioOptions2"
+                                    id="inlineRadio2" value="option2">
+
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <label class="form-check-label text-primary" for="inlineRadio3">Puno vreme</label>
+                                <input class="form-check-input mt-2 ml-2" type="radio" checked="checked" name="inlineRadioOptions3"
+                                    id="inlineRadio3" value="option3">
+
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <label class="form-check-label text-primary" for="inlineRadio3">Praksa</label>
+                                <input class="form-check-input mt-2 ml-2" type="radio" checked="checked" name="inlineRadioOptions4"
+                                    id="inlineRadio3" value="option3">
+
+                            </div>
+                            <hr class="line">
+                        </div>
+
+                        <div class="form-row second">
+
+                            <div class="form-group col-md-3">
+                                <select id="inputState" class="form-control text-primary">
+                                    <option selected>Zvanje</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group col-md-3">
+                                <select id="inputState" class="form-control text-primary">
+                                    <option selected>Vestine</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group col-md-3">
+                                <select id="inputState" class="form-control text-primary">
+                                    <option selected>Ekspertiza</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group col-md-3">
+                                <select id="inputState" class="form-control text-primary">
+                                    <option selected>Tip posla</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </section>
+    <section>
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="card col-md-12">
+
+                    <div class="row">
+
+                        <div class="card-body col-md-8">
+                            <h3>Android Developer</h3>
+                            <div>
+                                <i class="fa fa-location-arrow icon location-icon"></i>
+                                <p class="para text-primary">Serbia</p>
+                                <i class="fa fa-suitcase icon suitcase-icon"></i>
+                                <p class="para text-primary">9 godina iskustva</p>
+                                <br>
+                                <br>
+                                <div class="vestine">
+                                    <h5 class="inline">Primarne Vestine:</h5>
+                                    <ul class="pl-0 inline">
+                                        <li class="lista">.NET</li>
+                                        <li class="lista">AIR</li>
+                                        <li class="lista">ABAP</li>
+                                        <li class="lista">AJAX</li>
+                                        <li class="lista">ABAP FOR HANA</li>
+                                    </ul>
+                                    <br>
+                                    <br>
+                                    <p class="para1">Procitaj Vise <i class="fa fa-chevron-circle-down"></i></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-body col-md-2 offset-2 img-div">
+                            <div class="card">
+                                <img class="godaddy" src="./materijali/godaddy.png" alt="">
+
+                            </div>
+                            <br>
+                            <button type="button" class="btn profile-button">Pogledaj Profil</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section>
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="card col-md-12">
+
+                    <div class="row">
+
+                        <div class="card-body col-md-8">
+                            <h3>Android Developer</h3>
+                            <div class="vestine">
+                                <i class="fa fa-location-arrow icon location-icon"></i>
+                                <p class="para text-primary">Serbia</p>
+                                <i class="fa fa-suitcase icon suitcase-icon"></i>
+                                <p class="para text-primary">9 godina iskustva</p>
+                                <br>
+                                <br>
+                                <div>
+                                    <h5 class="inline">Primarne Vestine:</h5>
+                                    <ul class="pl-0 inline">
+                                        <li class="lista">.NET</li>
+                                        <li class="lista">AIR</li>
+                                        <li class="lista">ABAP</li>
+                                        <li class="lista">AJAX</li>
+                                        <li class="lista">ABAP FOR HANA</li>
+                                    </ul>
+                                    <br>
+                                    <br>
+                                    <p class="para1">Procitaj Vise <i class="fa fa-chevron-circle-down"></i></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-body col-md-2 offset-2 img-div">
+                            <div class="card">
+                                <img class="godaddy" src="./materijali/godaddy.png" alt="">
+
+                            </div>
+                            <br>
+                            <button type="button" class="btn profile-button">Pogledaj Profil</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section>
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="card col-md-12">
+
+                    <div class="row">
+
+                        <div class="card-body col-md-8">
+                            <h3>Android Developer</h3>
+                            <div class="vestine">
+                                <i class="fa fa-location-arrow icon location-icon"></i>
+                                <p class="para text-primary">Serbia</p>
+                                <i class="fa fa-suitcase icon suitcase-icon"></i>
+                                <p class="para text-primary">9 godina iskustva</p>
+                                <br>
+                                <br>
+                                <div>
+                                    <h5 class="inline">Primarne Vestine:</h5>
+                                    <ul class="pl-0 inline">
+                                        <li class="lista">.NET</li>
+                                        <li class="lista">AIR</li>
+                                        <li class="lista">ABAP</li>
+                                        <li class="lista">AJAX</li>
+                                        <li class="lista">ABAP FOR HANA</li>
+                                    </ul>
+                                    <br>
+                                    <br>
+                                    <p class="para1">Procitaj Vise <i class="fa fa-chevron-circle-down"></i></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-body col-md-2 offset-2 img-div">
+                            <div class="card">
+                                <img class="godaddy" src="./materijali/godaddy.png" alt="">
+
+                            </div>
+                            <br>
+                            <button type="button" class="btn profile-button">Pogledaj Profil</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section>
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="card col-md-12">
+
+                    <div class="row">
+
+                        <div class="card-body col-md-8">
+                            <h3>Android Developer</h3>
+                            <div class="vestine">
+                                <i class="fa fa-location-arrow icon location-icon"></i>
+                                <p class="para text-primary">Serbia</p>
+                                <i class="fa fa-suitcase icon suitcase-icon"></i>
+                                <p class="para text-primary">9 godina iskustva</p>
+                                <br>
+                                <br>
+                                <div>
+                                    <h5 class="inline">Primarne Vestine:</h5>
+                                    <ul class="pl-0 inline">
+                                        <li class="lista">.NET</li>
+                                        <li class="lista">AIR</li>
+                                        <li class="lista">ABAP</li>
+                                        <li class="lista">AJAX</li>
+                                        <li class="lista">ABAP FOR HANA</li>
+                                    </ul>
+                                    <br>
+                                    <br>
+                                    <p class="para1">Procitaj Vise <i class="fa fa-chevron-circle-down"></i></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-body col-md-2 offset-2 img-div">
+                            <div class="card">
+                                <img class="godaddy" src="./materijali/godaddy.png" alt="">
+
+                            </div>
+                            <br>
+                            <button type="button" class="btn profile-button">Pogledaj Profil</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <footer class="mt-5">
+        <div class="container">
+            <div class="row footer-row">
+                <div class="footer-col">
+                    <ul>
+                        <li>
+                            <h6>Za one koje traze posao</h6>
+                        </li>
+                        <li>Nadji posao</li>
+                        <li>Ubaci rezime</li>
+                        <li>Visina zeljene plate</li>
+                        <li>Site Map</li>
+                        <li>Pomoc</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <ul>
+                        <li>
+                            <h6>Za one koje nude posao</h6>
+                        </li>
+                        <li>Objavi oglas</li>
+                        <li>Pretrazi kandidate</li>
+                        <li>Site Map</li>
+                        <li>Pomoc</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <ul>
+                        <li>
+                            <h6>O nama</h6>
+                        </li>
+                        <li>O IT poslovima</li>
+                        <li>Radi sa nama</li>
+                        <li>Postani saradnik</li>
+                        <li>IT poslovi internationl</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <ul>
+                        <li>
+                            <h6>Korisni linkovi</h6>
+                        </li>
+                        <li>Kontakt</li>
+                        <li>Pravila koriscenja</li>
+                        <li>AdChoices</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <ul>
+                        <li>
+                            <h6>Nadji posao</h6>
+                        </li>
+                        <li>US Jobs</li>
+                        <li>Canada Jobs</li>
+                        <li>UK Jobs</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <ul class="social-net">
+                    <li class="pr-3">
+                        <a href=""><i class="fa fa-instagram fa-2x"></i></a>
+                    </li>
+                    <li class="pr-3"><i class="fa fa-twitter-square fa-2x"></i></li>
+                    <li>
+                        <i class='fa fa-facebook-square fa-2x'></i></li>
+                </ul>
+            </div>
+            <div class="row copyright">
+                <p>Copyright 2018 ITPoslovi / Sva prava zadrzana</p>
+            </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

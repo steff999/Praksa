@@ -1,0 +1,133 @@
+.tim {
+  text-align: center;
+}
+
+@media (min-width: 320px) {
+  .about {
+    margin-top: 90px;
+  }
+
+  .background {
+    background-image: url("../materijali/2.jpg");
+    background-size: 1400px 600px;
+    background-repeat: no-repeat;
+    background-position: right top;
+  }
+
+  .background1 {
+    background-image: url("../materijali/sec2.jpg");
+    background-size: 400px 250px;
+    background-repeat: no-repeat;
+    background-position: left top;
+  }
+
+  .slika {
+    margin-top: 30px;
+  }
+  .slike {
+    width: 300px;
+  }
+  .row {
+    text-align: center;
+  }
+  .card-body {
+    text-align: center;
+  }
+  .first {
+    background-image: url("/materijali/2.jpg");
+  }
+}
+
+@media (min-width: 450px) {
+  .about {
+    margin-top: 90px;
+  }
+  .slika {
+    margin-top: 30px;
+  }
+  .slike {
+    width: 400px;
+  }
+  .row {
+    text-align: center;
+  }
+}
+
+h3 {
+  color: #6f42c1;
+}
+
+p {
+  color: #6f42c1;
+}
+
+@media (min-width: 768px) {
+  .about {
+    margin-top: 90px;
+  }
+  .slika {
+    margin-top: 70px;
+  }
+
+  .person {
+    width: 230px;
+  }
+
+  .first {
+    margin-top: 80px;
+  }
+
+  .tim {
+    text-align: center;
+  }
+
+  .background {
+    background-size: 1400px 480px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .about {
+    margin-top: 90px;
+  }
+  .slika {
+    margin-top: 70px;
+  }
+
+  .person {
+    width: 300px;
+  }
+
+  .slike {
+    width: 600px;
+  }
+
+  .tim {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1440px) {
+  .about {
+    margin-top: 90px;
+  }
+  .slika {
+    margin-top: 70px;
+  }
+
+  .person {
+    width: 350px;
+  }
+
+  .slike {
+    width: 600px;
+  }
+
+  .background {
+    background-size: 2200px 600px;
+  }
+
+  .tim {
+    text-align: center;
+  }
+}
